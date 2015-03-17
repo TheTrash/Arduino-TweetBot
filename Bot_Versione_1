@@ -1,3 +1,6 @@
+//Ispirato da https://arduino-tweet.appspot.com/
+
+
 #if defined(ARDUINO) && ARDUINO > 18   // Arduino 0019 or later
 #include <SPI.h>
 #endif
@@ -15,7 +18,9 @@
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 byte ip[] = { 192, 168, 0, 177 };
 
-//Definisco il token di accesso della app di twitter
+
+//Definisco il token di accesso della app che avremo autorizzato con il nostro profilo.
+
 Twitter twitter("<<TOKEN HERE>>");
 
 File myFile;
