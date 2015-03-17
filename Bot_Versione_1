@@ -11,7 +11,7 @@
 //Definisco la lunghezza massima del tweet
 #define len 140
 
-//Definisco la lunghezza massima del tweet
+//Definisco il numero massimo di tweet
 #define a 10
 
 //definisco il mac e l'indirizzo ip dell' ethernet shield
